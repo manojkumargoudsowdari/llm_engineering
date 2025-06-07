@@ -251,7 +251,7 @@ def trade33():
     else:
         return []
 
-def trade34
+def trade34():
     # Inverse Head and Shoulders: Buy when a stock forms an inverse head and shoulders pattern
     ticker = random.choice(tickers)
     if prices[ticker][0] > prices[ticker][2] > prices[ticker][4] and prices[ticker][1] < prices[ticker][3] < prices[ticker][5]:
